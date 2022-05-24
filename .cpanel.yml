@@ -1,6 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
+    - export DEPLOYPATH=/home/capsulecorp/public_html/
     - /build/cp -R static $DEPLOYPATH
     - /build/cp asset-manifest.json $DEPLOYPATH
     - /build/cp index.html $DEPLOYPATH
