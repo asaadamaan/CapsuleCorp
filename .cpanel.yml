@@ -1,0 +1,11 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/public_html/
+    - /bin/cp -R static $DEPLOYPATH
+    - /build/cp index.html $DEPLOYPATH
+    - /build/cp favicon.ico $DEPLOYPATH
+    - /build/cp logo.png $DEPLOYPATH
+    - /build/cp logo192.png $DEPLOYPATH
+    - /build/cp logo512.png $DEPLOYPATH
+    - /build/cp manifest.json $DEPLOYPATH
+    - /build/cp robots.txt $DEPLOYPATH
