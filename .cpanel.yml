@@ -2,12 +2,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/capsulecorp/public_html/
-    - /build/cp -R static $DEPLOYPATH
-    - /build/cp asset-manifest.json $DEPLOYPATH
-    - /build/cp index.html $DEPLOYPATH
-    - /build/cp favicon.ico $DEPLOYPATH
-    - /build/cp logo.png $DEPLOYPATH
-    - /build/cp logo192.png $DEPLOYPATH
-    - /build/cp logo512.png $DEPLOYPATH
-    - /build/cp manifest.json $DEPLOYPATH
-    - /build/cp robots.txt $DEPLOYPATH
+    - /bin/cp -R static $DEPLOYPATH
+    - /bin/cp asset-manifest.json $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
+    - /bin/cp logo.png $DEPLOYPATH
+    - /bin/cp logo192.png $DEPLOYPATH
+    - /bin/cp logo512.png $DEPLOYPATH
+    - /bin/cp manifest.json $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
